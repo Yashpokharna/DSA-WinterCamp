@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class SortingString {
         public static void main(String[] args) {
-            String[] str = {"M","H","P","A","D","Z","T","G"};
+            String[] str = {"Mani","Aadi","Pari","Aari","Dari","Zara","Tara","Gara"};
             bubble(str);
             System.out.println(Arrays.toString(str));
         }
