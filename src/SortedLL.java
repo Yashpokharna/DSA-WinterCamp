@@ -1,25 +1,23 @@
+import java.util.List;
+
 public class SortedLL {
 
-    //Represent a node of the singly linked list
+    // creating node class
     class Node{
         int data;
         Node next;
-
         public Node(int data) {
             this.data = data;
             this.next = null;
         }
     }
-
     //Represent the head and tail of the singly linked list
     public Node head = null;
     public Node tail = null;
-
     //addNode() will add a new node to the list
     public void addNode(int data) {
         //Create a new node
         Node newNode = new Node(data);
-
         //Checks if the list is empty
         if(head == null) {
             //If list is empty, both head and tail will point to new node
@@ -95,7 +93,6 @@ public class SortedLL {
 
         //Sorting list
         sList.sortList();
-
         //Displaying sorted list
         System.out.println("Sorted list: ");
         sList.display();
