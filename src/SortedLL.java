@@ -1,7 +1,5 @@
 import java.util.List;
-
 public class SortedLL {
-
     // creating node class
     class Node{
         int data;
